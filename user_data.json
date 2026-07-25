@@ -7,7 +7,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-07-25T18:32:47.883772+00:00",
-      "last_seen": "2026-07-25T18:32:53.530609+00:00",
+      "last_seen": "2026-07-25T18:37:42.548014+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -22,14 +22,71 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 0,
-        "logins": 2
+        "logins": 4
+      }
+    },
+    "8607958265": {
+      "_id": 8607958265,
+      "name": "demo",
+      "username": "ingamecheerry",
+      "plan": "free",
+      "plan_expires": null,
+      "joined": "2026-07-25T18:33:09.947867+00:00",
+      "last_seen": "2026-07-25T18:37:17.005656+00:00",
+      "banned": false,
+      "ban_reason": "",
+      "wallet": 0,
+      "kyc": false,
+      "verified": true,
+      "verified_at": "2026-07-25T18:33:43.555876+00:00",
+      "ref_by": null,
+      "ref_count": 1,
+      "ref_credit": 1,
+      "trial_used": false,
+      "bot_slots_bonus": 1,
+      "stats": {
+        "commands": 0,
+        "bots_uploaded": 0,
+        "logins": 9
+      }
+    },
+    "8948862994": {
+      "_id": 8948862994,
+      "name": "Nigga",
+      "username": "",
+      "plan": "free",
+      "plan_expires": null,
+      "joined": "2026-07-25T18:36:35.770541+00:00",
+      "last_seen": "2026-07-25T18:36:35.770559+00:00",
+      "banned": false,
+      "ban_reason": "",
+      "wallet": 0,
+      "kyc": false,
+      "verified": false,
+      "verified_at": null,
+      "ref_by": 8607958265,
+      "ref_count": 0,
+      "ref_credit": 0,
+      "trial_used": false,
+      "bot_slots_bonus": 0,
+      "stats": {
+        "commands": 0,
+        "bots_uploaded": 0,
+        "logins": 1
       }
     }
   },
   "bots": {},
   "payments": [],
   "admins": {},
-  "audit": [],
+  "audit": [
+    {
+      "ts": "2026-07-25T18:33:44.234412+00:00",
+      "uid": 8607958265,
+      "action": "captcha_pass",
+      "detail": "verified after 0 try(s)"
+    }
+  ],
   "coupons": {},
   "tickets": {},
   "scheduled_broadcasts": [],
