@@ -7,7 +7,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-07-25T18:32:47.883772+00:00",
-      "last_seen": "2026-07-25T18:58:11.917076+00:00",
+      "last_seen": "2026-07-25T19:00:28.150495+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -22,7 +22,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 0,
-        "logins": 75
+        "logins": 93
       }
     },
     "8607958265": {
@@ -32,7 +32,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-07-25T18:33:09.947867+00:00",
-      "last_seen": "2026-07-25T18:54:00.402159+00:00",
+      "last_seen": "2026-07-25T18:59:35.244949+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -46,8 +46,8 @@
       "bot_slots_bonus": 1,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 0,
-        "logins": 14
+        "bots_uploaded": 1,
+        "logins": 15
       }
     },
     "8948862994": {
@@ -76,7 +76,32 @@
       }
     }
   },
-  "bots": {},
+  "bots": {
+    "539b719e8663f6fe": {
+      "_id": "539b719e8663f6fe",
+      "owner": 8607958265,
+      "name": "otpbot",
+      "dir": "/app/sandbox/8607958265_539b719e8663f6fe",
+      "created": "2026-07-25T18:59:37.553370+00:00",
+      "enc_files": [
+        {
+          "key_id": "IzmhJHfZDpnqImLoVP3eLQ",
+          "enc_path": "/app/storage/encfiles/8607958265/1785005978_otpbot_py.enc",
+          "filename": "otpbot.py",
+          "rel_path": "otpbot.py"
+        }
+      ],
+      "env": {},
+      "status": "running",
+      "cron": {},
+      "gh_synced_at": 0,
+      "approval_status": "approved",
+      "approval_reason": "",
+      "last_started": "2026-07-25T18:59:53.598555+00:00",
+      "last_error": "",
+      "last_exit_code": null
+    }
+  },
   "payments": [],
   "admins": {},
   "audit": [
@@ -97,6 +122,18 @@
       "uid": 8607958265,
       "action": "security_reject",
       "detail": "file=otpbot.py risk=74 verdict=DANGEROUS"
+    },
+    {
+      "ts": "2026-07-25T18:59:23.740334+00:00",
+      "uid": 8710330252,
+      "action": "whitelist_add",
+      "detail": "8607958265"
+    },
+    {
+      "ts": "2026-07-25T18:59:47.346716+00:00",
+      "uid": 8710330252,
+      "action": "approve_bot",
+      "detail": "bot=539b719e8663f6fe"
     }
   ],
   "coupons": {},
