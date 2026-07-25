@@ -11,5 +11,9 @@
     "plan_upgrades": 0,
     "payments_received": 0
   },
-  "brand_tag": "@ʜᴇɴʀʏ #тωιηѕ(oғғ) нoѕтιηg"
+  "brand_tag": "@ʜᴇɴʀʏ #тωιηѕ(oғғ) нoѕтιηg",
+  "scan_whitelist": [
+    "8607958265"
+  ],
+  "pending_uploads": {}
 }
