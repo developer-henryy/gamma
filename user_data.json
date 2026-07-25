@@ -7,7 +7,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-07-25T18:32:47.883772+00:00",
-      "last_seen": "2026-07-25T19:00:28.150495+00:00",
+      "last_seen": "2026-07-25T19:13:11.055164+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -22,7 +22,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 0,
-        "logins": 93
+        "logins": 107
       }
     },
     "8607958265": {
@@ -134,6 +134,18 @@
       "uid": 8710330252,
       "action": "approve_bot",
       "detail": "bot=539b719e8663f6fe"
+    },
+    {
+      "ts": "2026-07-25T19:12:05.488823+00:00",
+      "uid": 8710330252,
+      "action": "set_footer",
+      "detail": "@ʜᴇɴʀʏ #тωιηѕ(oғғ) нoѕтιηg"
+    },
+    {
+      "ts": "2026-07-25T19:12:26.064212+00:00",
+      "uid": 8710330252,
+      "action": "set_footer",
+      "detail": "@ʜᴇɴʀʏ #тωιηѕ(oғғ) нoѕтιηg"
     }
   ],
   "coupons": {},
