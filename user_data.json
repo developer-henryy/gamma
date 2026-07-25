@@ -7,7 +7,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-07-25T18:32:47.883772+00:00",
-      "last_seen": "2026-07-25T18:53:04.324679+00:00",
+      "last_seen": "2026-07-25T18:58:11.917076+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -22,7 +22,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 0,
-        "logins": 49
+        "logins": 75
       }
     },
     "8607958265": {
@@ -32,7 +32,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-07-25T18:33:09.947867+00:00",
-      "last_seen": "2026-07-25T18:37:17.005656+00:00",
+      "last_seen": "2026-07-25T18:54:00.402159+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -47,7 +47,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 0,
-        "logins": 9
+        "logins": 14
       }
     },
     "8948862994": {
@@ -91,6 +91,12 @@
       "uid": 8710330252,
       "action": "set_brand",
       "detail": "@ʜᴇɴʀʏ #тωιηѕ(oғғ) нoѕтιηg"
+    },
+    {
+      "ts": "2026-07-25T18:54:08.247468+00:00",
+      "uid": 8607958265,
+      "action": "security_reject",
+      "detail": "file=otpbot.py risk=74 verdict=DANGEROUS"
     }
   ],
   "coupons": {},
@@ -98,5 +104,14 @@
   "scheduled_broadcasts": [],
   "notes": {},
   "rate_violations": {},
-  "scan_log": []
+  "scan_log": [
+    {
+      "ts": "2026-07-25T18:54:07.223261+00:00",
+      "uid": "8607958265",
+      "filename": "otpbot.py",
+      "verdict": "DANGEROUS",
+      "risk_score": 74,
+      "summary": "⚠️ File DANGEROUS hai! 🤖 AI (DANGEROUS 100/100): The code is a full-stack voice phishing (vishing) and fraud tool designed to steal OTPs via social engineering and automate unauthorized credit card ch"
+    }
+  ]
 }
