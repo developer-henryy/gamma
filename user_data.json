@@ -7,7 +7,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-07-25T18:32:47.883772+00:00",
-      "last_seen": "2026-07-30T10:54:18.182963+00:00",
+      "last_seen": "2026-07-30T10:56:37.808216+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -21,8 +21,8 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 0,
-        "logins": 210
+        "bots_uploaded": 1,
+        "logins": 212
       }
     },
     "8607958265": {
@@ -150,6 +150,47 @@
       "last_started": "2026-07-26T16:27:58.323521+00:00",
       "last_error": "",
       "last_exit_code": null
+    },
+    "8e6330557af7c743": {
+      "_id": "8e6330557af7c743",
+      "owner": 8710330252,
+      "name": "maruf",
+      "dir": "/app/sandbox/8710330252_8e6330557af7c743",
+      "created": "2026-07-30T10:56:07.084507+00:00",
+      "enc_files": [
+        {
+          "key_id": "cGHXjbPLCNJEsj2yY0EKFQ",
+          "enc_path": "/app/storage/encfiles/8710330252/1785408967_SHOPI_BOT_bot_py.enc",
+          "filename": "bot.py",
+          "rel_path": "SHOPI BOT/bot.py"
+        },
+        {
+          "key_id": "Les6cNml2S9R8dvSvSPOGw",
+          "enc_path": "/app/storage/encfiles/8710330252/1785408968_SHOPI_BOT_premium_txt.enc",
+          "filename": "premium.txt",
+          "rel_path": "SHOPI BOT/premium.txt"
+        },
+        {
+          "key_id": "UBG5oGhf8M4_6o5C8x98dQ",
+          "enc_path": "/app/storage/encfiles/8710330252/1785408970_SHOPI_BOT_proxy_txt.enc",
+          "filename": "proxy.txt",
+          "rel_path": "SHOPI BOT/proxy.txt"
+        },
+        {
+          "key_id": "TR2G5mB4ep7rE8noiwgSHQ",
+          "enc_path": "/app/storage/encfiles/8710330252/1785408971_SHOPI_BOT_sites_txt.enc",
+          "filename": "sites.txt",
+          "rel_path": "SHOPI BOT/sites.txt"
+        }
+      ],
+      "env": {},
+      "status": "crashed",
+      "cron": {},
+      "gh_synced_at": 0,
+      "last_started": "2026-07-30T10:56:24.822312+00:00",
+      "last_error": "Task was destroyed but it is pending!\ntask: <Task pending name='Task-6' coro=<MTProtoSender._recv_loop() running at /app/sandbox/8710330252_8e6330557af7c743/.deps/telethon/network/mtprotosender.py:513> wait_for=<Future pending cb=[Task.task_wakeup()]>>\nTask was destroyed but it is pending!\ntask: <Task pending name='Task-3' coro=<Connection._send_loop() running at /app/sandbox/8710330252_8e6330557af7c743/.deps/telethon/network/connection/connection.py:322> wait_for=<Future pending cb=[Task.task_wakeup()]>>\nTask was destroyed but it is pending!\ntask: <Task pending name='Task-4' coro=<Connection._recv_loop() running at /app/sandbox/8710330252_8e6330557af7c743/.deps/telethon/network/connection/connection.py:341> wait_for=<Future pending cb=[Task.task_wakeup()]>>\nException ignored in: <coroutine object Connection._recv_loop at 0x7f32f30af6a0>\nRuntimeError: coroutine ignored GeneratorExit",
+      "last_exit_code": 1,
+      "last_exit_at": "2026-07-30T10:56:27.261850+00:00"
     }
   },
   "payments": [],
