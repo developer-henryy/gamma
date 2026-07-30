@@ -7,7 +7,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-07-25T18:32:47.883772+00:00",
-      "last_seen": "2026-07-30T10:37:39.529334+00:00",
+      "last_seen": "2026-07-30T10:54:18.182963+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -22,7 +22,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 0,
-        "logins": 205
+        "logins": 210
       }
     },
     "8607958265": {
@@ -226,6 +226,12 @@
       "uid": 8710330252,
       "action": "approve_bot",
       "detail": "bot=0215b8f6190b918e"
+    },
+    {
+      "ts": "2026-07-30T10:53:49.205950+00:00",
+      "uid": 8710330252,
+      "action": "whitelist_add",
+      "detail": "8710330252"
     }
   ],
   "coupons": {},
