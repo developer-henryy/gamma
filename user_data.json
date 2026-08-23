@@ -100,6 +100,31 @@
         "logins": 56
       },
       "last_expiry_warn": -1
+    },
+    "1443955223": {
+      "_id": 1443955223,
+      "name": "Abubeker",
+      "username": "paF0IC",
+      "plan": "free",
+      "plan_expires": null,
+      "joined": "2026-08-23T22:26:12.379122+00:00",
+      "last_seen": "2026-08-23T22:26:12.379141+00:00",
+      "banned": false,
+      "ban_reason": "",
+      "wallet": 0,
+      "kyc": false,
+      "verified": false,
+      "verified_at": null,
+      "ref_by": null,
+      "ref_count": 0,
+      "ref_credit": 0,
+      "trial_used": false,
+      "bot_slots_bonus": 0,
+      "stats": {
+        "commands": 0,
+        "bots_uploaded": 0,
+        "logins": 1
+      }
     }
   },
   "bots": {
